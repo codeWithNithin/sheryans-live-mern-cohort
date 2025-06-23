@@ -49,3 +49,8 @@ confirm('Are you a man?')
 
 // to take input from user, we can use prompt.
 prompt('Enter your name:')
+
+let userAge = 23;
+userAge++ // 24
+
+userAge-- // 23
