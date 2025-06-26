@@ -130,3 +130,6 @@ Statement: Any Statement related code.
 const sum = a + b; // expression
 console.log(sum); // Statement
 ```
+
+#### Let vs const vs var
+
