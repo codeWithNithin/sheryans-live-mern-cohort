@@ -8,7 +8,6 @@ console.err("typeErr");
 console.warn("dep warning");
 
 // 3. different types of values
-
 console.log('nithin')
 console.log(23)
 console.log(true)
@@ -16,6 +15,7 @@ console.log(undefined)
 console.log(null)
 
 // variables
+
 // declaration
 let age;
 
@@ -45,12 +45,15 @@ console.log(num1 % num2);
 alert('Are u 18?')
 
 // confirm will have 2 buttons yes and no, on click of yes it will return true else it will listen false.
-confirm('Are you a man?')
+const result = confirm('Are you a man?')
 
 // to take input from user, we can use prompt.
-prompt('Enter your name:')
+const userName = prompt('Enter your name:')
 
 let userAge = 23;
 userAge++ // 24
 
 userAge-- // 23
+
+
+// Differnce betwen let and const
