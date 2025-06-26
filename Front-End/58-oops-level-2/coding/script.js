@@ -22,8 +22,13 @@ function Toffee(name) {
 Toffee.prototype.price = 10;
 
 Toffee.prototype.getToffeeName = function () {
+  console.log(this)
   return this.name;
 };
 
 const kMango = new Toffee("Kacha Mango");
 const dMilk = new Toffee("Diary Milk");
+
+// since we havent defined any methods inside the Toffe constructor, how we are getting all these methids?
+// - its because of the prototype.
+dMilk.toString()
